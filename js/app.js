@@ -11,8 +11,9 @@ async function loadClasses() {
         card.textContent = item.name;
 
         card.onclick = () => {
-            alert(item.name + " page will be built next.");
-        };
+    window.location.href =
+        "pages/class.html?id=" + item.id;
+};
 
         container.appendChild(card);
     });

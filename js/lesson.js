@@ -26,6 +26,7 @@ async function loadLesson() {
 
     document.getElementById("lesson-title").textContent = lesson.title;
     document.getElementById("lesson-content").textContent = lesson.content;
+    document.getElementById("lesson-video").src = lesson.video;
 }
 
 loadLesson();

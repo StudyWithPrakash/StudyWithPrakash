@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "class": 1,
+    "subjects": ["English", "Mathematics", "Nepali"]
+  },
+  {
+    "class": 2,
+    "subjects": ["English", "Mathematics", "Nepali"]
+  },
+  {
+    "class": 3,
+    "subjects": ["English", "Mathematics", "Science", "Nepali"]
+  },
+  {
+    "class": 4,
+    "subjects": ["English", "Mathematics", "Science", "Nepali"]
+  },
+  {
+    "class": 5,
+    "subjects": ["English", "Mathematics", "Science", "Nepali"]
+  },
+  {
+    "class": 6,
+    "subjects": ["English", "Mathematics", "Science", "Computer", "Nepali", "Social Studies"]
+  },
+  {
+    "class": 7,
+    "subjects": ["English", "Mathematics", "Science", "Computer", "Nepali", "Social Studies"]
+  },
+  {
+    "class": 8,
+    "subjects": ["English", "Mathematics", "Science", "Computer", "Nepali", "Social Studies"]
+  },
+  {
+    "class": 9,
+    "subjects": ["English", "Mathematics", "Science", "Computer", "Nepali", "Social Studies"]
+  },
+  {
+    "class": 10,
+    "subjects": ["English", "Mathematics", "Science", "Computer", "Nepali", "Social Studies"]
+  },
+  {
+    "class": 11,
+    "subjects": ["English", "Physics", "Chemistry", "Biology", "Computer Science", "Mathematics"]
+  },
+  {
+    "class": 12,
+    "subjects": ["English", "Physics", "Chemistry", "Biology", "Computer Science", "Mathematics"]
+  }
+]

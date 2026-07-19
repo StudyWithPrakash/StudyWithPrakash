@@ -1,1 +1,15 @@
+@media(max-width:768px){
 
+.hero h2{
+    font-size:1.6rem;
+}
+
+nav{
+    flex-direction:column;
+}
+
+.class-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}

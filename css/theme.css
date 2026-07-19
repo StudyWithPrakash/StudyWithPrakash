@@ -1,1 +1,25 @@
+:root{
+    --primary:#1565C0;
+    --secondary:#42A5F5;
+    --background:#F5F7FA;
+    --card:#FFFFFF;
+    --text:#222;
+}
 
+body{
+    background:var(--background);
+    color:var(--text);
+}
+
+header,
+footer{
+    background:var(--primary);
+}
+
+.class-card{
+    background:var(--primary);
+}
+
+.class-card:hover{
+    background:var(--secondary);
+}

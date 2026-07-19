@@ -27,6 +27,19 @@ async function loadLesson() {
     document.getElementById("lesson-title").textContent = lesson.title;
     document.getElementById("lesson-content").textContent = lesson.content;
     document.getElementById("lesson-video").src = lesson.video;
+    const simulationButton = document.getElementById("simulationButton");
+const simulationMessage = document.getElementById("simulationMessage");
+
+if (lesson.simulation && lesson.simulation !== "") {
+
+    simulationButton.style.display = "inline-block";
+    simulationMessage.style.display = "none";
+
+    simulationButton.onclick = () => {
+        window.location.href = "../" + lesson.simulation;
+    };
+
+}
 }
 
 loadLesson()

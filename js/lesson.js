@@ -29,4 +29,13 @@ async function loadLesson() {
     document.getElementById("lesson-video").src = lesson.video;
 }
 
-loadLesson();
+loadLesson()
+    document.getElementById("quizButton").onclick = () => {
+
+    window.location.href =
+        "quiz.html?class=" + classId +
+        "&subject=" + encodeURIComponent(subject) +
+        "&category=" + encodeURIComponent(category) +
+        "&topic=" + encodeURIComponent(topic);
+
+};

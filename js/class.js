@@ -20,16 +20,21 @@ async function loadSubjects() {
 
     selected.subjects.forEach(subject => {
 
-        const card = document.createElement("div");
+    const card = document.createElement("div");
 
-        card.className = "class-card";
+    card.className = "class-card";
 
-        card.textContent = subject;
+    card.textContent = subject;
 
-        grid.appendChild(card);
+    card.onclick = () => {
+        window.location.href =
+            "subject.html?class=" + classId +
+            "&subject=" + encodeURIComponent(subject);
+    };
 
-    });
+    grid.appendChild(card);
 
+});
 }
 
 loadSubjects();

@@ -1,0 +1,43 @@
+[
+  {
+    "subject": "English",
+    "categories": [
+      "Grammar",
+      "Free Writing",
+      "Reading",
+      "Literature",
+      "Vocabulary"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "categories": [
+      "Algebra",
+      "Geometry",
+      "Arithmetic"
+    ]
+  },
+  {
+    "subject": "Science",
+    "categories": [
+      "Physics",
+      "Chemistry",
+      "Biology"
+    ]
+  },
+  {
+    "subject": "Computer",
+    "categories": [
+      "Theory",
+      "Programming"
+    ]
+  },
+  {
+    "subject": "Nepali",
+    "categories": [
+      "व्याकरण",
+      "रचना",
+      "पठन"
+    ]
+  }
+]

@@ -1,1 +1,27 @@
 
+.container{
+    width:95%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section{
+    margin:40px 0;
+}
+
+.flex{
+    display:flex;
+}
+
+.grid{
+    display:grid;
+    gap:20px;
+}
+
+.center{
+    text-align:center;
+}
+
+.hidden{
+    display:none;
+}

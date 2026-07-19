@@ -5,91 +5,78 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Study With Prakash</title>
 
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f5f7fa;
-}
-
-header{
-    background:#1565c0;
-    color:white;
-    text-align:center;
-    padding:25px;
-}
-
-h1{
-    margin:0;
-}
-
-.search{
-    text-align:center;
-    margin:20px;
-}
-
-.search input{
-    width:90%;
-    max-width:500px;
-    padding:12px;
-    border-radius:10px;
-    border:1px solid #ccc;
-    font-size:16px;
-}
-
-.container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-    gap:20px;
-    padding:20px;
-}
-
-.card{
-    background:white;
-    border-radius:15px;
-    text-align:center;
-    padding:30px 10px;
-    text-decoration:none;
-    color:#1565c0;
-    font-weight:bold;
-    box-shadow:0 5px 10px rgba(0,0,0,.15);
-    transition:.3s;
-}
-
-.card:hover{
-    transform:scale(1.05);
-}
-</style>
-
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
-<h1>Study With Prakash</h1>
-<p>Learn Easily. Learn Smart.</p>
+    <div class="logo">
+        <h1>📚 Study With Prakash</h1>
+        <p>Learn Smarter. Achieve More.</p>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Classes</a>
+        <a href="#">Grammar</a>
+        <a href="#">Free Writing</a>
+        <a href="#">Notes</a>
+        <a href="#">Videos</a>
+    </nav>
 </header>
 
-<div class="search">
-<input type="text" placeholder="Search lessons...">
+<section class="hero">
+    <h2>Welcome to Study With Prakash</h2>
+    <p>Interactive lessons for Nepal CDC Curriculum</p>
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search lessons...">
+</section>
+
+<section class="quick-links">
+
+<div class="card">📚 Classes</div>
+<div class="card">📝 Grammar</div>
+<div class="card">✍ Free Writing</div>
+<div class="card">📄 Notes</div>
+<div class="card">🎥 Videos</div>
+<div class="card">🧪 Quiz</div>
+
+</section>
+
+<section class="classes">
+
+<h2>Choose Your Class</h2>
+
+<div class="class-grid">
+
+<div class="class-card">Class 1</div>
+<div class="class-card">Class 2</div>
+<div class="class-card">Class 3</div>
+<div class="class-card">Class 4</div>
+<div class="class-card">Class 5</div>
+<div class="class-card">Class 6</div>
+<div class="class-card">Class 7</div>
+<div class="class-card">Class 8</div>
+<div class="class-card">Class 9</div>
+<div class="class-card">Class 10</div>
+<div class="class-card">Class 11</div>
+<div class="class-card">Class 12</div>
+
 </div>
 
-<div class="container">
+</section>
 
-<a class="card" href="#">Class 1</a>
-<a class="card" href="#">Class 2</a>
-<a class="card" href="#">Class 3</a>
-<a class="card" href="#">Class 4</a>
-<a class="card" href="#">Class 5</a>
-<a class="card" href="#">Class 6</a>
-<a class="card" href="#">Class 7</a>
-<a class="card" href="#">Class 8</a>
-<a class="card" href="#">Class 9</a>
-<a class="card" href="#">Class 10</a>
-<a class="card" href="#">Class 11</a>
-<a class="card" href="#">Class 12</a>
+<footer>
 
-</div>
+<p>© 2026 Study With Prakash</p>
+
+</footer>
+
+<script src="js/app.js"></script>
 
 </body>
 </html>

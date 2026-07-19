@@ -1,0 +1,20 @@
+[
+  {
+    "class": 8,
+    "subject": "English",
+    "category": "Grammar",
+    "topic": "Prepositions",
+    "questions": [
+      {
+        "question": "She is ___ the classroom.",
+        "options": ["in", "on", "at", "under"],
+        "answer": "in"
+      },
+      {
+        "question": "The book is ___ the table.",
+        "options": ["on", "in", "under", "between"],
+        "answer": "on"
+      }
+    ]
+  }
+]

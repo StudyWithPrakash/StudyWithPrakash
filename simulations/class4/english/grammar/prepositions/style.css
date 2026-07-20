@@ -814,3 +814,67 @@
             <div class="passage-text" id="p-body">
               <span class="scan-sentence" id="s1" onclick="scanSentence(1)">Pasang was a smart young boy from Solukhumbu.</span> 
               <span class="scan-sentence" id="s2"
+
+#playground{
+
+height:250px;
+
+position:relative;
+
+border:2px solid #1565C0;
+
+border-radius:15px;
+
+margin:20px 0;
+
+background:#f5f7ff;
+
+}
+
+#cat{
+
+position:absolute;
+
+font-size:60px;
+
+left:130px;
+
+top:20px;
+
+transition:.5s;
+
+}
+
+#box{
+
+position:absolute;
+
+font-size:90px;
+
+left:120px;
+
+top:100px;
+
+}
+
+.button-group{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+justify-content:center;
+
+margin-top:20px;
+
+}
+
+.button-group button{
+
+padding:12px 20px;
+
+font-size:18px;
+
+}
